@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, itial-scale=1.0">
+
+    <title>Scroll</title>
+
+    <script src="../libs/gsap/gsap.min.js" defer></script>
+    <script src="../libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="../libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script src="js/bundle.js" defer></script>
+
+</head>
+<body>
+    <header class="header">
+      
+        <div class="logo">
+            <a class="logo-image"><h3>Megapolis</h3></a>
+        </div>
+        <nav class="root-navigation">
+          <ul class="nav-list">
+            <li class="nav-button-place"><button href="#popup" id="button" class="nav-button popup-link">Расписание</button></li>
+            <li class="nav-button-place"><button href="#popup2" id="button2" class="nav-button popup-link">Пробный визит</button></li>
+            <li class="nav-button-place"><button href="#popup3" id="button3" class="nav-button popup-link">Купить</button></li>
+            <li><a class="phone-link" href="tel: 8 (812) 565-65-16">8 (812) 565-65-16</a></li>
+          </ul>
+        </nav>        
+
+    </header>
+    <div class="wrapper">
+        <div class="content">
+            <div class="hero-section">
+                <img data-speed="0.6" class="hero" src="../img/hero.png" alt="alt">
+                <div class="container">
+                    <div data-speed="0.75" class="main-header">
+                        <h1 class="main-title">megapolis</h1>
+                    </div>
+                </div>
+            </div>
+        <div class="portfolio">
+            <div class="container">
+                <main class="gallery">
+                    <div data-speed="0.9" class="gallery__left">
+                        
+                        <img class="gallery__item" src="../img/work/7.jpg" alt="Alt">
+        
+                        <div class="text-block gallery__item">
+                            <h2 class="text-block__h">dfjklgnk jdnfkljnd lfgbkn</h2>
+                            <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
+                        </div>
+
+                        <img class="gallery__item" src="../img/work/8.jpg" alt="Alt">
+        
+                        <div class="text-block gallery__item">
+                            <h2 class="text-block__h">dfjklgnk jdnfkljnd lfgbkn</h2>
+                            <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
+                        </div>
+        
+                        <img class="gallery__item" src="../img/work/9.jpg" alt="Alt">
+        
+                    </div>
+                    <div data-speed="1.1" class="gallery__right">
+                        
+                        <div class="text-block gallery__item">
+                            <h2 class="text-block__h">dfjklgnk jdnfkljnd lfgbkn</h2>
+                            <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
+                        </div>
+        
+                        <img class="gallery__item" src="../img/work/10.jpg" alt="Alt">
+                        <img class="gallery__item" src="../img/work/11.jpg" alt="Alt">
+                        <img class="gallery__item" src="../img/work/12.jpg" alt="Alt">
+        
+                    </div>
+                </main>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    <div id="popup" class="popup">
+
+        <div class="popup__body">
+
+            <div class="popup__content">
+
+                <a href="" class="popup__close close-popup">x</a>
+                <div class="popup__title">Хуё моё,это модальное окно</div>
+                <div class="popup__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="popup2" class="popup">
+
+        <div class="popup__body">
+
+            <div class="popup__content">
+
+                <a href="" class="popup__close close-popup">x</a>
+                <div class="popup__title">Хуё моё,это модальное окно2</div>
+                <div class="popup__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div id="popup3" class="popup">
+
+        <div class="popup__body">
+
+            <div class="popup__content">
+
+                <a href="" class="popup__close close-popup">x</a>
+                <div class="popup__title">Хуё моё,это модальное окно3</div>
+                <div class="popup__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
